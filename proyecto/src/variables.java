@@ -29,5 +29,8 @@ public class variables {
         System.out.printf(" %s  %d %s %d %s %d ",a1,b1,aa,bb,aaa,bbb);
 
 
+
+
+
     }
 }
