@@ -21,7 +21,9 @@ public class Empleado {
     public String getNombre(){
         return this.nombre;
     }
-    public  void imprimir(){
+
+    public  void imprimir()
+    {
         System.out.println("nombre empleado: "+this.nombre);
         System.out.println("ci empleado" + this.ci);
         System.out.println("edad empleado" + this.edad);

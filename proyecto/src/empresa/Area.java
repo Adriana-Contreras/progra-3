@@ -13,7 +13,8 @@ public class Area {
      }
 
     public void setEmpleados(Empleado[] empleados) {
-        this.empleados = empleados;
+
+         this.empleados = empleados;
     }
     public Empleado[] getEmpleados(){
          return  this.empleados;
