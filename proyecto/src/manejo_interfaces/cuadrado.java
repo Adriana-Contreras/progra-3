@@ -12,7 +12,7 @@ package manejo_interfaces;
     public double area(){
 
          double respuesta = lado * lado;
-        return respuesta;
+         return respuesta;
 
     }
 

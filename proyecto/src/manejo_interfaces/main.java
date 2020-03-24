@@ -9,7 +9,7 @@ public class main {
         System.out.println("el area del cuadrado es: "+ cu.area());
 
         circulo  c = new circulo(5);
-        System.out.println("el adiametro es: "+ c.area());
+        System.out.println("el diametro es: "+ c.area());
 
 
         rectangulo  r = new rectangulo(5,10);
