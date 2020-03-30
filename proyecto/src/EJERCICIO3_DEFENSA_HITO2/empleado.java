@@ -8,6 +8,7 @@ public class empleado implements LeerInterfaz {
 
 
   public  empleado(){ super();};
+
     public void leer(){
         System.out.println("ingresar primer nombre: ");
         primernombre = LEER.next();
