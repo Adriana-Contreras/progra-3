@@ -9,6 +9,7 @@ public class main_empresa {
         Scanner leer = new Scanner(System.in);
         System.out.println("ingrese el numero de empleados ");
         int n= leer.nextInt();
+
         Empleado[] empleadoRRHH = new Empleado[n];
 
         for(int i=0; i<n ; i++){
@@ -56,7 +57,7 @@ public class main_empresa {
          // empresa.imprimir();
 
 
-          Scanner leer2 = new Scanner(System.in);
+         Scanner leer2 = new Scanner(System.in);
         System.out.println("ingrese el numero  de areas que desea registrar ");
         int  a  = leer2.nextInt();
         Area[] Areas = new Area[a];

@@ -60,7 +60,7 @@ public class persona {
 //        if (name.equals("progra3")) {
 //            System.out.printf("las cadenas  %s son iguales", name);
 //
-//    }else {
+//       }else {
 //            System.out.printf("las cadenas  %s son distintas", name );
 //        }
 //

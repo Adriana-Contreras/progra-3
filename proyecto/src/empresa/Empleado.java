@@ -27,5 +27,6 @@ public class Empleado {
         System.out.println("nombre empleado: "+this.nombre);
         System.out.println("ci empleado" + this.ci);
         System.out.println("edad empleado" + this.edad);
+
     }
 }
