@@ -6,41 +6,35 @@ public class policia extends  persona{
 
     public  String turno;
     public  int nroDestinos;
-    public  String destinos[];
+    public  String[] destinos;
 
-    persona p = new persona();
-
-    public  policia(){ super();};
-
-
-
+    public  policia(){ super();}
 
 
     public void leer(){
-        p.leer();
-        System.out.println("ingresar el turno : ");
+        super.leer();
+        System.out.println("ingresar el turno: ");
         turno = LEER.next();
         System.out.println("ingresar numero de destinos: ");
         nroDestinos = LEER.nextInt();
+
         destinos=new String[nroDestinos];
-        System.out.println("ingresar el destino : ");
+        System.out.println("ingresar solo "+nroDestinos+" destinos");
         for(int i=0;i<nroDestinos;i++)
         {
-
             destinos[i]=LEER.next();
+            System.out.println("ingresar destino: ");
         }
 
     }
-//    public destinos [] getdestinos(){
-//        return  this.destinos;
-//}
+
     public  void mostrar(){
-          p.mostrar();
-        System.out.println("turno : " + this.turno);
-        System.out.println("numero de destinos  : " + this.nroDestinos);
-        System.out.println("destino: " + this.destinos);
-        for (int i = 0; i < this.destinos.length; i++) {
-            System.out.println(this.destinos[1]);
+        super.mostrar();
+        System.out.println("turno: " + this.turno);
+        System.out.println("numero de destinos:  " + this.nroDestinos);
+        System.out.println("destino: " + this.destinos.length);
+        for (int i = 0; i < this.nroDestinos; i++) {
+            System.out.println(this.destinos[i]);
         }
 
     }

@@ -19,6 +19,7 @@ public class Area {
     public Empleado[] getEmpleados(){
          return  this.empleados;
     }
+
      public  void  imprimir(){
          System.out.println("nombre de empleado" + this.nombre);
          for(int i=0; i < this.empleados.length; i++){ //memorizar estte array para imprimir

@@ -5,12 +5,10 @@ public class cuidadano implements leerInterfaz{
     public String apellido;
     public int ciNumero;
     public String ciExtencion;
-     public  int edad;
+    public  int edad;
 
 
-    public  cuidadano(){ super();};
-
-
+    public  cuidadano(){ super();}
 
     public void leer(){
         System.out.println("ingresar primer nombre: ");
@@ -26,14 +24,10 @@ public class cuidadano implements leerInterfaz{
 
     }
     public  void mostrar(){
-
         System.out.println("primer nombre : " + this.primerNombre);
         System.out.println("apellido : " + this.apellido);
         System.out.println("numero de ci: " + this.ciNumero);
         System.out.println("extension de ci: " + this.ciExtencion);
         System.out.println("la edad: " + this.edad);
     }
-
-
-
 }

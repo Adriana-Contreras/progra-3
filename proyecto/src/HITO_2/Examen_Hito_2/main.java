@@ -5,60 +5,47 @@ import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
 
-        persona per = new persona();
-
-        policia p = new policia();
-//        p.turno = "";
-//        p.apellido = "";
-        p.leer();
-        p.mostrar();
 
         profesor pro = new profesor();
-//      pro.cargaH= 4;
-//      pro.ciudad= "";
         pro.leer();
         pro.mostrar();
+        profesor pro1 = new profesor();
+        pro1.leer();
+        pro1.mostrar();
+
+       verificar(pro.Materias,pro1.Materias);
+
 
         policia poli = new policia();
+        policia poli2 = new policia();
         poli.leer();
         poli.mostrar();
-         comprobar(pro.ciudad,poli.destinos);
+        poli2.leer();
+        poli2.mostrar();
+
+       comprobar(pro.ciudad,poli2.destinos);
 
 
     }
-//    Scanner leer2 = new Scanner(System.in);
-//    public void iguales() {
-//            String [] materias= new String [5];
-//            String palabra;
-//            int conta = 0;
-//            System.out.println("ingrese una palabra: ");
-//
-//            while (materias.hasNext())    //  while (conta <5)
-//            {
-//                palabra = leer2.nextLine();
-//
-//                if (palabra.length() >= 10) {
-//                    conta++;
-//                    System.out.println("cadena encontrada");
-//                    break;
-//
-//                }
-//
-//
-//
-//            }
-//
-//
-//
-//        }
-       public static  void comprobar (String ciudad, String [] destino){
+
+       public static  void comprobar (String ciudad, String[] destino){
         for(int i=0;i<destino.length;i++){
-            if(ciudad==destino[i]){
-                System.out.println("¨Coinciden");
-             }
+            if(ciudad==destino[i]){   //ciudad.equals compara si dos cadenas son iguales
+                System.out.println("Coinciden");
+             }else{
+                System.out.println("no coinciden");
+            }
            }
             }
 
-
+            public  static  void verificar (String[] Materias1, String[] Materias2) {
+                    for (int i = 0; i <Materias1.length; i++) {
+                        if (Materias1.equals(Materias2)) {
+                            System.out.println("tienen la misma materia");
+                        } else {
+                            System.out.println("no tienen la misma materia ");
+                        }
+                    }
+            }
     }
 
