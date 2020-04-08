@@ -1,6 +1,4 @@
-package HITO_2.Examen_Hito_2;
-
-import empresa.Empleado;
+package HITO_2.Procesual_Hito_2;
 
 public class policia extends  persona{
 

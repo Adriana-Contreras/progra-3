@@ -1,4 +1,4 @@
-//package campeonato;
+//package HITO_2.campeonato;
 //
 //public class main {
 //    public static void main(String[] args) {
@@ -15,7 +15,7 @@
 //        equipo[] equipos = new equipo[1];
 //        equipos [0] = equipo1;
 //
-//        campeonato camp = new campeonato("campeonato unifranz", equipos);
+//        HITO_2.campeonato camp = new HITO_2.campeonato("HITO_2.campeonato unifranz", equipos);
 //        camp.imprimircampeonato();
 //
 //

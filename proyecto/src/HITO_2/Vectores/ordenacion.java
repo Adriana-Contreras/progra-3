@@ -1,4 +1,4 @@
-package Vectores;
+package HITO_2.Vectores;
 
  interface ordenacion {
 

@@ -1,4 +1,4 @@
-//package Vectores;
+//package HITO_2.Vectores;
 //import java.io.*;
 //
 //public class main {

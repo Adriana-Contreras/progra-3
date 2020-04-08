@@ -1,6 +1,4 @@
-package HITO_2.Examen_Hito_2;
-
-import java.util.Scanner;
+package HITO_2.Procesual_Hito_2;
 
 public class main {
     public static void main(String[] args) {

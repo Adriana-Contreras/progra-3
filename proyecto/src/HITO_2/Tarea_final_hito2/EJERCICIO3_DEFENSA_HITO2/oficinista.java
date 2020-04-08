@@ -7,7 +7,7 @@ public class oficinista extends  empleado{
 
 
 //    public oficinista(String primernombre, String apellido, int ciNumero, String ciExtencion) {
-//        super(primernombre, apellido, ciNumero, ciExtencion);// hace herencia de atributos de la clase persona
+//        super(primernombre, apellido, ciNumero, ciExtencion);// hace HITO_2.herencia de atributos de la clase persona
 //        this.codArea = codArea;
 //        this.sueldoBasico = sueldoBasico;
 //

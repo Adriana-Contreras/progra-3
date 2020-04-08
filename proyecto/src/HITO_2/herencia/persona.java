@@ -1,4 +1,4 @@
-package herencia;
+package HITO_2.herencia;
 
 public class persona {
     public String nombres;

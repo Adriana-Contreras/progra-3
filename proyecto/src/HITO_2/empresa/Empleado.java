@@ -1,6 +1,4 @@
-package empresa;
-
-import java.awt.*;
+package HITO_2.empresa;
 
 public class Empleado {
     private String nombre;

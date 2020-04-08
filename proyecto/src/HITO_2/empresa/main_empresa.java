@@ -1,4 +1,4 @@
-package empresa;
+package HITO_2.empresa;
 
 import java.util.Scanner;
 
@@ -53,8 +53,8 @@ public class main_empresa {
 
         //  Area[]  tiposareas = new Area[1];
          //tiposareas[0] = area1;
-        // Empresa  empresa = new Empresa("FIRULAIS", tiposareas);
-         // empresa.imprimir();
+        // Empresa  HITO_2.empresa = new Empresa("FIRULAIS", tiposareas);
+         // HITO_2.empresa.imprimir();
 
 
          Scanner leer2 = new Scanner(System.in);

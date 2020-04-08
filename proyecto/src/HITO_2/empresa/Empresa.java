@@ -1,4 +1,4 @@
-package empresa;
+package HITO_2.empresa;
 
 public class Empresa {
 

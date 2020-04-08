@@ -1,4 +1,4 @@
-package herencia;
+package HITO_2.herencia;
 
 public class main {
     public static void main(String[] args) {

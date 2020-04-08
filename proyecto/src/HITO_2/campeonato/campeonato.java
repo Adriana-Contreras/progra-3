@@ -1,10 +1,10 @@
-//package campeonato;
+//package HITO_2.campeonato;
 //
-//public class campeonato {
+//public class HITO_2.campeonato {
 //     private String nombrecampeonato;
 //     private equipo[] equipos;
 //
-//     public   campeonato (String nombrecampeonato, equipo[] equipos)  {
+//     public   HITO_2.campeonato (String nombrecampeonato, equipo[] equipos)  {
 //         this.nombrecampeonato = nombrecampeonato;
 //         this. equipos = equipos;
 //     }

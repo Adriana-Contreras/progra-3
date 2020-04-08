@@ -1,4 +1,4 @@
-package HITO_2.Examen_Hito_2;
+package HITO_2.Procesual_Hito_2;
 
 public class profesor extends  persona {
     public int cargaH;
