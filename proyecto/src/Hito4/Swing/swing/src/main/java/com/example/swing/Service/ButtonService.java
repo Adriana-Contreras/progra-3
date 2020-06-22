@@ -23,29 +23,31 @@ public class ButtonService implements  ButtonServiceInterface {
             for(String titleButton : titleButtons){
                 buttonRepository.save(new ButtonModel(titleButton));
             }
-
+        }
+    }
 //            titleButtons[0]= "Save";
 //            titleButtons[1]= "Delete";
 //            titleButtons[2]= "Cancel";
 
 
 //        buttonRepository.save(new ButtonModel("Log In"));
-        }
+
         //System.out.println("ButtonService.saveData");
        // buttonModel.setTitleButton("ingresar");
 
        // buttonRepository.save(new ButtonModel("Ingresar"));
        // buttonRepository.save(new ButtonModel("Registrar"));
-    }
+
 
     //lee registro
     @Override
     public String getRowRegistro(){
 //    buttonRepository.getTitleButton();
 //    return null;
-    ButtonModel bModel = buttonRepository.getTitleButton();
+
     //String titleButton = bModel.getTitleButton();
-    return  bModel.getTitleButton();
+        ButtonModel bModel = buttonRepository.getTitleButton();
+        return  bModel.getTitleButton();
     }
 
     @Override

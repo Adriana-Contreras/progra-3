@@ -21,9 +21,6 @@ public class ButtonModel {
     }
 
 
-
-
-
     public Integer getId() {
         return id;
     }

@@ -15,7 +15,7 @@ public class EmplyPanel extends JPanel {
 
     public EmplyPanel(){
         this.setPreferredSize( new Dimension(500,100));
-        this.setBackground(Color.gray);
+        this.setBackground(Color.CYAN);
         this.setLayout(new GridLayout(2,1));//``
        // this.setVisible(true);
 

@@ -15,13 +15,13 @@ import java.util.List;
 public class ButtonPanel  extends JPanel {
     @Autowired
     private ButtonService buttonService;
+
      public ButtonPanel (){
-         this.setPreferredSize(new Dimension(400,200));
+         this.setPreferredSize(new Dimension(600,400));
          this.setBackground(Color.blue);
          this.setLayout(new GridLayout(3,0));
-
-
      }
+
      @PostConstruct
       public  void createButtons(){
          JPanel mainPanel = new JPanel();
@@ -31,7 +31,7 @@ public class ButtonPanel  extends JPanel {
 
          AllTitles.forEach(buttonModel -> {
              JButton button = new JButton(buttonModel.getTitleButton());
-             button.setPreferredSize(new Dimension(40,40));
+             button.setPreferredSize(new Dimension(100,40));
              mainPanel.add(button);
          });
 

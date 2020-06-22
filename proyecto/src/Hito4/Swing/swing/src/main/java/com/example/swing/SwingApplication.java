@@ -27,8 +27,6 @@ public class SwingApplication  {
 
 	}
 
-
-
 	//para que este metodo se ejecute despues del constructor
 	@PostConstruct
 	public void InsertDataBase(){
