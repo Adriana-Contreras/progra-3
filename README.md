@@ -1,8 +1,8 @@
 # Programación III - Ingenieria en sistemas
 Manejo de la evidencias a lo largo del semestre en la materia de programacion III Utilizando el lenguaje Java.
 
+![Recordit GIF](https://i.pinimg.com/originals/b9/49/c8/b949c86a570df07a7440abe39405834c.gif)
 
-[![INSERT YOUR GRAPHIC HERE](https://i.pinimg.com/564x/f7/d6/d7/f7d6d78ea4c99a94380a48cba35cf359.jpg)]()
 
 **Contenido del repositorio**
 > Hito2 
