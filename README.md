@@ -15,9 +15,7 @@ Manejo de la evidencias a lo largo del semestre en la materia de programacion II
 
 **Hito 2**
 
-- Avance de Introduccion a Java
-- Manejo de herencia en Java
-- Manejo de interfacez en Java
+- Java (Avance de clases)
 - Procesual 
 - Tarea Final hito2 
 
