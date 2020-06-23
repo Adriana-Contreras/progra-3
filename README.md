@@ -29,7 +29,7 @@ Manejo de la evidencias a lo largo del semestre en la materia de programacion II
 
 - Procesual
 - Swing y Spring Boot Framework (Avance de clases)
-- Tarea Final hito5
+- Tarea Final hito4
 
 **Hito 5**
 
